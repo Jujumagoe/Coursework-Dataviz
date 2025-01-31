@@ -51,7 +51,7 @@ country_df = pd.DataFrame({'country': country_counts.keys(), 'count': country_co
 fig = px.choropleth(country_df, locations='country', locationmode='country names',
                     color='count', hover_name='country',
                     title='Number of Nobel Prize Winners by Country of Birth',
-                    color_continuous_scale="PiYG") # Use ColorBrewer PiYG
+                    color_continuous_scale="Trubo") # Use ColorBrewer PiYG
 
 # Increase the title font size
 fig.update_layout(title_font=dict(size=24)) 
