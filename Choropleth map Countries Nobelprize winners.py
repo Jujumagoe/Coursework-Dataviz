@@ -80,6 +80,6 @@ fig = px.choropleth(country_df,
 # Save in pdf
 pio.write_image(fig, "nobel_laureates.pdf", format="pdf")
 # Save in html
-fig.write_html("data/nobel_laureates.html")
+fig.write_html("nobel_laureates.html")
 fig.show()
 
